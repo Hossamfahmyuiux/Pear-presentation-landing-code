@@ -1,0 +1,807 @@
+.body
+{
+    overflow: hidden;
+}
+.clear
+
+{
+    clear: both;
+}
+/* main navbar*/
+.navbar
+{
+    min-height: 51px;
+}
+
+.navbar-inverse .navbar-nav 
+{
+    margin-right: 75px;
+}
+
+.navbar-inverse .navbar-nav > li > a
+{
+    color: #BBB;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16PX;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    margin-right: 40px;
+    
+}
+
+.navbar-inverse .icon-search a
+{
+    float: right;
+    color: #FFF;
+    
+    margin-right: 0px;
+    margin-top: 25px;
+    cursor: pointer;
+    
+}
+
+.navbar-inverse .icon-search a:hover
+{
+    color: #0066cc;;
+}
+
+
+/* Brand name */
+.navbar-inverse .navbar-brand
+{
+    color: #DDD;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+/* dropdown menu */
+.dropdown-menu
+{
+    background-color: #333;
+    
+    min-width: 200px;
+}
+.navbar-right .dropdown-menu
+{
+    left: 0;
+    right: auto;
+}
+.dropdown-menu > li > a
+{
+    color: #FFF;
+    padding: 6px; 20px;
+    -webkit-transition:padding 0.5s ease;
+    -moz-transition:padding 0.5s ease;
+    -o-transition:padding 0.5s ease;
+    transition:padding 0.5s ease;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus
+{
+    
+    color: #FFF;
+    padding-left: 25px;
+}
+.dropdown-menu .divider
+{
+    background-color: #E41B17;
+}
+/* navbar toggle */
+.navbar-toggle
+{
+    margin-top: 18px;
+}
+/* Navbar End */
+
+
+/*Start Slider*/
+.header
+{
+    background: url(../Imgs/header-bg.png) no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    position: relative
+}
+.header .wlcome-messge
+{
+    margin-top: 215px;
+}
+.header .wlcome-messge h3
+{
+    font-family:'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    color: #FFF;
+    
+        
+}
+.header .wlcome-messge h1
+{
+    font-family:'Lato', sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+    color: #FFF;
+    
+        
+}
+.header .get-start a
+{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 17px;
+    cursor: pointer;
+}
+.header .get-start a:hover
+{
+    border-bottom: #FFF 3px solid;
+    
+}
+/* img cover */
+.imgCover{position: absolute;bottom: 0px;}
+.imgCover img{
+    width: 100%;
+}
+
+/*End Slider*/
+
+
+/*Start Features*/
+
+
+.features .feat1
+{
+  margin-bottom: 75px;
+ 
+}
+.features .title 
+{
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.features .title h1
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    color: #333333;
+    font-weight: 100;
+}
+.features h4
+{
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+    font-size: 24px;
+    font-weight: 100;
+}
+.features p
+{
+    font-family: 'Lato', sans-serif;
+    color: #666666;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 1.8em;
+
+}
+.features .feat-boxs .feat1  i
+{
+    font-size: 36px;
+    color: #cccccc;
+    
+}
+    
+}
+.features .feat-boxs .feat1 i:hover
+{
+    color: #0066cc;
+}
+.features .video-presntaion a
+{
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 80px;
+ 
+}
+.features .video-presntaion span
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 100;
+    color: #0066cc;
+       
+}
+.features .video-presntaion i
+{
+    font-size: 24px;
+    color: #0066cc;
+}
+
+
+/* End Featuers*/
+
+/* Start clean theme*/
+.line
+{
+    color: black;
+    height: auto;
+    width:100%;
+    border-top: 1px solid #e1e1e1;
+    margin-top: 70px;
+}
+
+.bg-image img
+{
+    width: 50%;
+    float: right;
+    margin-top: 80px;
+}
+.title-text
+{
+    margin-top: 200px;
+    margin-bottom: 80px;
+    
+    
+       
+}
+.title-text h1
+{
+
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+    font-size: 24px;
+    font-weight: 100;
+}
+.title-text p
+{
+    font-family: 'Lato', sans-serif;
+    color: #666666;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 1.8em;
+    
+}
+
+
+.features .show-demo a
+{
+    text-decoration: none;
+    margin-bottom: 80px;
+        
+ 
+}
+.features .show-demo span
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 100;
+    color: #0066cc;
+    cursor: pointer;
+}
+.features .show-demo i
+{
+    font-size: 24px;
+    color: #0066cc;
+    cursor: pointer;
+}
+.features .show-demo i:hover
+
+
+
+/* End clean theme*/
+
+/* Start Video*/
+.video iframe
+{
+    width: 100%;
+    float: right;
+    height: 100%;   
+}
+.embed-responsive-4by3 {
+    width: 100%;
+    padding: 15%;
+}
+/* End Video*/
+
+
+/*Start Stylish pages*/
+
+.stylish-page .title
+{
+    margin-top: 80px;
+    
+}
+.stylish-page .title h1
+{
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+    font-size: 24px;
+    font-weight: 100;
+}
+.stylish-page .title p
+{
+    font-family: 'Lato', sans-serif;
+    color: #666666;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 1.8em;
+    
+}
+.stylish-page .stylish-imge img
+{
+    width: 100%;
+    margin-top: 80px;
+}
+/*End Stylish pages*/
+
+/*Start choose your vesoin*/
+.your-versoin .vrsoin-title h1
+{
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.your-versoin .style1
+{
+    margin-top: 80px;
+    
+}
+.your-versoin .style-box .style1 img
+{
+    width: 100%;
+    
+}
+.your-versoin .style-box .style1 img:hover
+{
+    opacity: 0.4;
+    
+}
+.your-versoin .style-box .style1 .Night-bar
+{
+    margin-top: 20px;
+}
+
+
+.your-versoin .style-box .style1 .Night-bar span
+{
+        font-family: 'Lato', sans-serif;
+        font-size: 24px;
+        font-weight: 100;
+        cursor: pointer;
+}
+.your-versoin .style-box .style1 .Night-bar i
+{
+    font-size: 24px;
+    cursor: pointer;
+
+}
+
+
+/*End choose your vesoin*/
+
+/*Start image perview*/
+
+.image-perview
+{
+    background-image: url(../Imgs/image-perview.png);
+    height: 50%;
+    width: 100%;
+    margin-top: 80px;
+}
+.image-perview .imge-title
+{
+    margin-top: 100PX;
+    
+}
+
+.image-perview .imge-title h1
+{
+    font-family: 'Lato', sans-serif;
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 100;  
+}
+.image-perview .imge-title span
+{
+    font-size: 24px;
+}
+.image-perview .imge-title i
+{
+    font-size: 24px;
+}
+
+.image-perview .imge-title a
+{
+    color: #FFF;
+    cursor: pointer;  
+}
+
+/*End image perview*/
+
+/*Start resposive version*/
+.fully-responsive .versions .iphone img
+{
+    width: 100%;
+    margin-top: 80px;
+}
+.fully-responsive .versions i
+{
+    font-size: 48px;
+    color: #cccccc;
+}
+.fully-responsive .versions .res-text
+{
+    margin-top: 300px
+}
+
+.fully-responsive .versions .res-text h1
+{
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+    font-size: 50px;
+    font-weight: 100;  
+}
+.fully-responsive .versions .res-text p
+{
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 1.8em;
+}
+
+.fully-responsive .versions .res-text .buy-now span
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 100;
+    color: #0066cc;
+    cursor: pointer;  
+}
+
+.fully-responsive .versions .res-text .buy-now i
+{
+   font-size: 24px;
+    color: #0066cc;
+    cursor: pointer;
+
+}
+
+/*End resposive version*/
+
+
+/* Start Clients Say*/
+.clients-say
+{
+    background-color: #fafafa;
+    margin-top: 80px;
+    
+}
+.clients-say .clients-title
+{
+    margin-top: 80px;
+}
+.clients-say .clients-title h1
+{
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+    font-size: 50px;
+    font-weight: 100; 
+}
+.clients-say p
+{
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 1.8em;
+}
+.client1
+{
+    margin-top: 80px;
+    border: 1px solid #e1e1e1;
+    padding-top: 40PX;
+    padding-bottom: 40PX;
+    margin-bottom: 80px;
+   
+
+}
+.client1 h2
+{
+    color:#0066cc;
+
+}
+
+
+ .client1 p
+{   
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+    font-size: 34px;
+    font-weight: 100;
+    line-height: 1.8em;
+}
+/* End Clients Say*/
+
+/*Start Logos*/
+.logos
+{
+    margin-top: 80px;
+}
+
+.logos .logo-box
+{
+    margin-bottom: 50px;
+    
+}
+.logos .logo-box img
+{
+     opacity: 0.4;
+    filter:alpha(opacity=40);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -webkit-transition:all 0.6s ease-in-out;
+    -moz-transition:all 0.6s ease-in-out;
+    -o-transition:all 0.6s ease-in-out;
+    transition:all 0.6s ease-in-out;
+}
+.logos .logo-box img:hover
+{
+    opacity: 1;
+}
+
+
+
+/*End Logos*/
+
+
+/*Start counter*/
+
+.counter
+{
+    margin-top: 80px;
+    background-color: #0066cc;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+ 
+.counter .conter-boxs .box1
+{
+    float: left;
+
+}
+.counter .conter-boxs .box1 h1
+{
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    color: #FFF;
+    font-size: 100px;
+    border-right: 1px solid #408cd9;
+
+}
+.counter .conter-boxs .box3 h1
+{
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    color: #FFF;
+    font-size: 100px;
+   
+
+}
+
+
+.counter .conter-boxs .box1 span
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #FFf;
+    font-weight: 100;
+    margin-right: 150px;
+    
+}
+.counter .conter-boxs .box3 span
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #FFf;
+    font-weight: 100;
+    margin-right: 150px;
+    
+}
+
+
+/* End counter*/
+
+
+/*Start Buy theme footer*/
+.buy-theme
+{
+    
+    background: url(../Imgs/buy-theme.png) no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    
+}
+.buy-theme .buy-text
+{
+    margin-top: 200px;
+    margin-bottom: 280px;   
+}
+.buy-theme .buy-text h1
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 70px;
+    color: #FFF;
+    font-weight: 100;
+    
+}
+.buy-theme .buy-text p
+{
+    font-family: 'Lato', sans-serif;
+    font-size:24px;
+    color: #FFF;
+    font-weight: 100;
+    
+}
+.buy-theme .buy-text .buy-th span
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 34px;
+    font-weight: 100;
+    color: #FFF;
+    cursor: pointer;
+
+}
+
+.buy-theme .buy-text .buy-th i
+{
+    
+    font-size: 34px;
+    color: #FFF;
+    cursor: pointer;
+
+}
+
+/*End Buy theme footer*/
+
+/*Start Footer*/
+.footer
+{
+   
+    background-color: #f2f2f2;
+    
+}
+.footer .site-map .contacts
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.footer .site-map .home-pages
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer .site-map .home-pages h3
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    
+    
+}
+
+.footer .site-map .home-pages ul  li
+{
+    line-height: 2em;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 2em;
+    font-family: 'Lato', sans-serif;
+    color: #666666;
+    font-weight: 100;
+    cursor: pointer;
+    
+}
+.footer .site-map .home-pages ul  li:hover
+{
+    color: #000000;
+    font-weight: 300;
+}
+
+
+.footer .site-map .contacts h3
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    
+}
+.footer .site-map .contacts span
+{
+    
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #666666;
+    font-weight: 100;
+
+}
+
+.footer .site-map .contacts h4
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #666666;
+    font-weight: 100;
+    
+}
+.footer .site-map .contacts a
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    color: #0066cc;
+}
+
+.footer .site-map .contacts i
+{
+    margin-top: 40px;
+    margin-right: 20px;
+    font-size: 20px;
+    color: #cccccc;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.footer .site-map .contacts i:hover
+{
+    color: #000000;
+    
+}
+
+.footer .copy-right
+{
+    border-top: 1px solid #cccccc;
+}
+.footer .copy-right .type1 span
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+    color: #999999;
+    position: absolute;
+    padding-top: 30px;
+    
+}
+
+.footer .copy-right .links a
+{
+    float: right;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+    color: #999999;
+    cursor: pointer;
+    margin: 5px;
+    
+}
+.footer .copy-right a:hover
+{
+    color: #000000;
+}
+
+/*End Footer*/
